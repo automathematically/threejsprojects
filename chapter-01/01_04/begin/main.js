@@ -1,6 +1,8 @@
 function init() {
 	var scene = new THREE.Scene();
 
+	var geometry = new THREE.BoxGeometry(1,1,1);
+
 	var camera = new THREE.PerspectiveCamera(
 		45,
 		window.innerWidth/window.innerHeight,
